@@ -1,0 +1,13 @@
+.container {
+    border-radius: 50;
+    border-width: 1rem;
+    border-color: black;
+}
+
+.name {
+    color: darkred;
+}
+
+.description {
+    color: black
+}
