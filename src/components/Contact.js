@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-//import '../styles/Contact.css'
+import '../styles/Contact.css'
 
 export default class contact extends Component {
   constructor (props){
@@ -49,7 +49,7 @@ export default class contact extends Component {
         email: '',
         comment: ''
     })
-    window.alert('Thank you for your inquiry')
+    window.alert('Your message has been recieved, Thank you!')
     console.log(contact)
   }
   render() {
@@ -58,6 +58,7 @@ export default class contact extends Component {
       <div className="jumbotron jumbotron-fluid contacthover">
       <div className="contactcontainer">
               <h1>Contact Us</h1>
+              <img src= {cinCinCity} className='contactImg' alt="picture of Cincinnati" />
           </div>
       </div>
         <div className="containerContact">
